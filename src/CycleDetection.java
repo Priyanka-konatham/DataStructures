@@ -68,7 +68,7 @@ public class CycleDetection {
      *
      */
     static boolean hasCycle(SinglyLinkedListNode head) {
-        SinglyLinkedListNode s=head;int c=0;
+        SinglyLinkedListNode s=head;
         SinglyLinkedListNode f=head;
         while(f!=null && f.next!=null)
         {

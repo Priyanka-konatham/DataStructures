@@ -1,3 +1,6 @@
+/*
+ * Find middle element of linked list
+ */
 import java.util.*;
 public class MiddleElement {
    static class SinglyLinkedListNode {
@@ -39,7 +42,7 @@ public class MiddleElement {
                 n=n.next;
                 c++;
             }
-            i=(c%2==0)?c/2:c/2;
+            i=c/2;
             n=this.head;
             while(i>0)
             {
